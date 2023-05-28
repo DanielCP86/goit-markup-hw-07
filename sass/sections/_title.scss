@@ -1,0 +1,23 @@
+/*title*/
+.title-section {
+    background-color: var(--backround-title-footer-color);
+    text-align: center;
+    height: 600px;
+    padding-top: 200px;
+    padding-right: 452px;
+    padding-left: 452px;
+    padding-bottom: 280px;
+    background-image: url(/images/img-backround-title.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .title-section-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    vertical-align: top;
+    letter-spacing: 6%;
+    color: var(--backround-text-color);
+  }

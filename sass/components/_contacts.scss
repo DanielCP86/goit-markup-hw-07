@@ -1,0 +1,63 @@
+.email-header {
+    list-style-type: none;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 2%;
+    text-decoration: none;
+    color: var(--text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+
+    &:hover,
+    &:focus {
+    color: var(--hover-focus-color);
+    }
+  }
+
+  .email-header__icon {
+    width: 16px;
+    height: 12px;
+
+    &:hover,
+    &:focus {
+    color: var(--hover-focus-color);
+    }
+  }
+
+  .phone-header {
+    list-style-type: none;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 2%;
+    text-decoration: none;
+    color: var(--text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+
+    &:hover,
+    &:focus {
+    color: var(--hover-focus-color);
+    }
+  }
+
+  
+  .phone-header__icon {
+    width: 10px;
+    height: 16px;
+
+    &:hover,
+    &:focus{
+        color: var(--hover-focus-color);
+    }
+  }
+  
+  

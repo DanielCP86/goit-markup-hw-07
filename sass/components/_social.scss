@@ -1,0 +1,31 @@
+.social {
+    padding-top: 16px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: var(--icon-link-color);
+  }
+
+  .social__link {
+    color: var(--icon-link-color);
+
+    &:hover,
+    &:focus {
+    color: var(--backround-text-color);
+    background-color: var(--hover-focus-color);
+    cursor: pointer;
+    }
+  }
+
+  .social__icon{
+    width: 20px;
+    height: 20px;
+  }
+
+.social-footer {
+    display: flex;
+    gap: 10px;
+    margin-left: 70px;
+  }
+  
